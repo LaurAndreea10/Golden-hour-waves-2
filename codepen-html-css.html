@@ -1,0 +1,47 @@
+<!-- ===== HTML panel (CodePen) ===== -->
+<canvas id="c"></canvas>
+<div class="hint">move to stir the wind · click for a splash 🌊</div>
+
+<!-- ===== CSS panel (CodePen) — copy everything below into the CSS panel ===== -->
+<!--
+* { margin: 0; }
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+	background: #04101e;
+}
+
+#c {
+	position: fixed;
+	inset: 0;
+	display: block;
+	cursor: crosshair;
+	touch-action: manipulation;
+}
+
+.hint {
+	position: fixed;
+	left: 50%;
+	bottom: 22px;
+	transform: translateX(-50%);
+	font: 500 13px/1 system-ui, sans-serif;
+	letter-spacing: .06em;
+	color: rgba(255, 255, 255, .85);
+	background: rgba(4, 16, 30, .35);
+	backdrop-filter: blur(6px);
+	padding: 9px 16px;
+	border-radius: 999px;
+	pointer-events: none;
+	animation: hintFade 9s ease forwards;
+}
+
+@keyframes hintFade {
+	0%, 70% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.hint { animation: none; }
+}
+-->
