@@ -4,9 +4,11 @@ Interactive ocean scene built with **HTML, CSS and Canvas JavaScript**.
 
 Move the pointer to change the wind. Click or tap to create a splash.
 
-## Live Demo
+## Links
 
-🔗 **https://laurandreea10.github.io/Golden-hour-waves-2/**
+- 🔗 **Live Demo:** https://laurandreea10.github.io/Golden-hour-waves-2/
+- ✨ **CodePen:** https://codepen.io/Laura-Andreea-the-typescripter/pen/vEgKQJK
+- 📁 **Repository:** https://github.com/LaurAndreea10/Golden-hour-waves-2
 
 ## Preview
 
